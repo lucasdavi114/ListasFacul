@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-float crammer(float a, float b, float c, float d, float e, float f, float *det, float *detx, float *dety);
+int crammer(float a, float b, float c, float d, float e, float f, float *det, float *detx, float *dety);
 
 int main(void)
 {
@@ -43,7 +43,7 @@ int main(void)
     return 0;
 }
 
-float crammer(float a, float b, float c, float d, float e, float f, float *det, float *detx, float *dety)
+int crammer(float a, float b, float c, float d, float e, float f, float *det, float *detx, float *dety)
 {
     *det = a * d - b * c;
     *detx = e * d - b * f;
