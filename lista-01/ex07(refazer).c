@@ -8,7 +8,7 @@ int main(void)
     int placa, numeroCentenas;
 
     printf("Entre com os 4 numeros da placa: ");
-    scanf("%i", &placa);
+    scanf("%d", &placa);
 
     if(placa < 1000){
         numeroCentenas = placa / 100;
