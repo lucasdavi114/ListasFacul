@@ -12,7 +12,7 @@ int main(void)
         printf("Entre com as horas no modelo hh:mm ");
         scanf("%i:%i", &hora, &minutos);
 
-    } while (hora > 23 || minutos > 59);
+    } while (hora > 23 || minutos > 59 || hora < 0 || minutos < 0);
     
     minutosTotais = hora*60;
     minutosTotais += minutos;
