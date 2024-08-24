@@ -19,4 +19,6 @@ int main(void)
 
     printf("Se passaram %i minutos desde 00:00\n", minutosTotais);
 
+    return 0;
+
 }

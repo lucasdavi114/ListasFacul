@@ -31,4 +31,6 @@ int main(void)
             printf("A pessoa ganha menos de um salario minimo\n");
         }
 
+    return 0;
+
 }
